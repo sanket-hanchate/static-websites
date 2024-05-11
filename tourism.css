@@ -1,0 +1,217 @@
+.main-heading {
+    height: 28px;
+    background-color: #ffffff;
+    padding: 14px;
+}
+.heading-1 {
+    color: #151765;
+    font-size: 35px;
+    font-family: sans-serif;
+}
+.cart-1 {
+    padding: 14px;
+}
+.heading-2 {
+    font-size: 25px;
+    color: #151765;
+    font-family:  sans-serif;
+    margin-top: 36px;
+}
+.cart-2 {
+    text-align: center;
+    
+    margin-top: 20px;
+}
+.image-1 {
+    height: 220px;
+    width: 260px;
+}
+.heading-3 {
+    font-size: 25px;
+    color: #183b56;
+    font-family: 'Bree Serif';
+    font-weight: bold;
+}
+.para-1 {
+    font-size: 16px;
+    color: #616e7c;
+    font-family: "Bree Serif";
+}
+.image-2 {
+    height: 120px;
+    width: 180px;
+}
+.projects {
+    margin-left: 430px;
+    padding: 10px;
+}
+.sub-cart-3 {
+    margin-left: 20px;
+}
+.bg-container-1 {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/advanced-technologies-img.png");
+    height: 100vh;
+    background-size: cover;
+    margin-top: 30px;
+}
+.cart-4 {
+    height: 30vh;
+    background-color: #ffffff;
+    margin-top: 90px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    
+}
+.heading-4 {
+    font-size: 30px;
+    color: #5752ab;
+    font-family: "Bree Serif";
+    margin-left: 10px;
+}
+.para-2 {
+    font-size: 17px;
+    color: #323f4b;
+    font-family: "Bree Serif";
+    margin-left: 10px;
+}
+.button {
+    border-radius: 10px;
+    
+    border-width: 0px;
+    height: 35px;
+    width: 130px;
+    font-size: 14px;
+    border-color: #5752ab;
+    margin-left: 10px;
+}
+.headings {
+    font-size: 25px;
+    color: #151765;
+    font-family:  sans-serif;
+    margin-bottom: 300px;
+}
+.bg-container-2 {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/foodbg.png");
+    background-size: cover;
+    height: 100vh;
+    margin-top: 20px;
+}
+
+.card-item {
+    height: 31vh;
+    background-color: #f6c56e;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 14px;
+}
+
+.heading-5 {
+    font-family: Bree Serif;
+    font-size: 30px;
+    color: #323f4b;
+    font-weight: bold;
+}
+
+.para-3 {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: bold;
+}
+.button-2 {
+    height: 38px;
+    width: 100px;
+    border-width: 1px;
+    color: #323f4b;
+    border-color: white;
+    font-family: "Roboto";
+    font-size: 13px;
+    border-radius: 8px;
+    
+}
+.diwali-top-section {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-bg.png");
+    height: 38vh;
+    background-size: cover;
+    margin-top: 20px;
+  }
+  .diwali-top-section-heading {
+    color: white;
+    font-family: "Caveat";
+    font-size: 37px;
+    width: 200px;
+    padding: 20px;
+  }
+  .diwali-bottom-section {
+    text-align:center;
+    background-color: #e6f6ff;
+    padding:15px;
+  }
+  .diwali-card-item {
+    text-align: center;
+    background-color: white;
+    width:140px;
+    border-radius: 9px;
+    padding: 16px;
+    margin: 15px;
+  }
+  .diwali-card-image {
+    height: 64px;
+    width: 64px;
+  }
+  .diwali-card-name {
+    color: #616e7c;
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: normal;
+  }
+  .diwali-card-price {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .bg-container-3 {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/newsbg.png");
+    background-size: cover;
+    height: 100vh;
+    margin-top: 20px;
+}
+
+.card-item-1 {
+    height: 35vh;
+    background-color: #ffffff;
+    padding: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.para-4 {
+    font-size: 12px;
+    color: #7b8794;
+    font-family: "Roboto";
+}
+
+.heading-6 {
+    font-size: 19px;
+    font-family: "Roboto";
+    color: #323f4b;
+}
+
+.para-5 {
+    font-size: 11px;
+    color: #7b8794;
+    font-family: "Roboto";
+}
+
+.button-3 {
+    border-radius: 7px;
+    height: 35px;
+    width: 110px;
+    font-size: 13px;
+    background-color: #323f4b;
+    color: #ffffff;
+    border-width: 0px;
+    font-family: "Roboto";
+}
+

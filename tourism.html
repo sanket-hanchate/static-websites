@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tourism.css">  
+</head>
+<body>
+    <div id="sectionId-1">
+    <div class="main-heading">
+        <h1 class="heading-1">Design Files:</h1>
+    </div>
+    <div class="cart-1">
+        <h1 class="heading-2">Home Page:</h1>
+        <div class="cart-2">
+        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/software-developer-img.png" alt="project" class="image-1"/>
+        <h1 class="heading-3">My Projects</h1>
+        <p class="para-1">There are a few of my Static Website projects that I have developed using HTML, CSS and Bootstrap</p>
+    
+        <div class="projects d-flex flex-row">
+        <div class="cart-3" onclick="display('sectionId-2')">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/advanced-technologies-img.png" alt="project-1" class="image-2"/>
+        </div>
+        <div class="sub-cart-3" onclick="display('sectionId-3')">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-img.png" alt="project-2" class="image-2"/>
+        </div>
+    </div>
+    <div class="projects d-flex flex-row">
+        <div class="cart-3" onclick="display('sectionId-4')">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/food-img.png" alt="project-3" class="image-2"/>
+        </div>
+        <div class="sub-cart-3" onclick="display('sectionId-5')">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/news-paper-img.png" alt="project-4" class="image-2"/>
+        </div>
+    </div>
+    </div>
+    </div>
+</div>
+    <div id="sectionId-2">
+    <div class="main-heading">
+        <h1 class="headings">Advanced Tecnologies Page:</h1>
+    </div>
+    <div class="bg-container-1 d-flex flex-column justify-content-end">
+        <div class="cart-4">
+        <h1 class="heading-4">Advanced Technologies</h1>
+        <p class="para-2">Machinery and equipment developed from the application of scientific knowledge.</p>
+        <button class="button button-white">Learn More</button>
+        <button class="btn btn-primary" onclick="display('sectionId-1')">Back</button>
+    </div>
+    </div>
+</div>
+    <div id="sectionId-3">
+    <div class="main-heading">
+        <h1 class="headings">Diwali Page:</h1>
+    </div>
+    <div class="diwali-top-section">
+        <h1 class="diwali-top-section-heading">
+          Celebrate Diwali with your friends
+        </h1>
+      </div>
+      <div class="diwali-bottom-section">
+        <div class="d-flex flex-row justify-content-center">
+          <div class="diwali-card-item">
+            <img
+              src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/lamp-img.png"
+              class="diwali-card-image"
+            />
+            <h1 class="diwali-card-name">Diwali Air Balloon</h1>
+            <p class="diwali-card-price">Rs 369</p>
+          </div>
+  
+          <div class="diwali-card-item">
+            <img
+              src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diya-img.png"
+              class="diwali-card-image"
+            />
+            <h1 class="diwali-card-name">Diwali - Lamp</h1>
+            <p class="diwali-card-price">Rs 50</p>
+          </div>
+        </div>
+        <div class="d-flex flex-row justify-content-center">
+          <div class="diwali-card-item">
+            <img
+              src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/firework-img.png"
+              class="diwali-card-image"
+            />
+            <h1 class="diwali-card-name">Sparklers</h1>
+            <p class="diwali-card-price">Rs 150</p>
+          </div>
+  
+          <div class="diwali-card-item">
+            <img
+              src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/firecracker-img.png"
+              class="diwali-card-image"
+            />
+            <h1 class="diwali-card-name">Fire Cracker</h1>
+            <p class="diwali-card-price">Rs 560</p>
+          </div>
+        </div>
+        <button class="button-2">View More</button>
+        <button class="btn btn-primary" onclick="display('sectionId-1')">Back</button>
+      </div>
+    </div>
+    <div id="sectionId-4">
+    <div class="main-heading">
+        <h1 class="headings">Happy Meals Page:</h1>
+    </div>
+    <div class="bg-container-2 d-flex flex-column justify-content-end">
+        <div class="card-item">
+            <h1 class="heading-5">Happy Meals</h1>
+            <p class="para-3">Discover the best foods over the 1,000 restaurants</p>
+            <button class="button-2">Book Now</button>
+            <button class="btn btn-primary" onclick="display('sectionId-1')">Back</button>
+        </div>
+    </div>
+</div>
+    <div id="sectionId-5">
+    <div class="main-heading">
+        <h1 class="headings">NewsPaper Article Page:</h1>
+    </div>
+    <div class="bg-container-3 d-flex flex-column justify-content-end">
+        <div class="card-item-1">
+            <p class="para-4">NEWS OF THE DAY</p>
+            <h1 class="heading-6">iB Cricket announces world's first Virtual Reality Cricket League</h1>
+            <p class="para-5">iB Cricket and Viu together have announced the World's first virtual reality cricket league featuring 12 international cricketers, who will be competing against each other for the iB Cricket Super Over League title in Mumbai. Iconic cricketers like Virender Sehwag, Suresh Raina, Brendon McCullum will be competing in the league.</p>
+            <button class="button-3">Read More</button>
+            <button class="btn btn-primary" onclick="display('sectionId-1')">Back</button>
+        </div>
+    </div>
+</div>
+    
+    <script type="text/javascript" src="https://new-assets.ccbp.in/frontend/content/static-ccbp-ui-kit/static-ccbp-ui-kit.js"></script>
+
+</body>
+</html>
